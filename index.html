@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTG-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scalar">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Calendario HTML</title>
+  <style>
+    #calendario {
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+    }
+    #calendario caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+    }
+    #calendario th {
+      background-color: #333;
+      color: #fff;
+      padding: 5px 10px;
+    } 
+    #calendario td {
+      border: 1px solid #999;
+      text-align: center;
+      padding: 5px 0;
+    }
+  </style>
 </head>
 <body>
-    <H1>BIENVENIDO A MI PRIMERA PAGINA</H1>
+
+  <table id="calendario">
+    <caption>Mi Calendario</caption>
+    <thead>
+      <tr>
+        <th>Lun</th>
+        <th>Mar</th>
+        <th>Mié</th>
+        <th>Jue</th>
+        <th>Vie</th>
+        <th>Sáb</th>
+        <th>Dom</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td> 
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+      </tr>
+    </tbody>
+  </table>
+
 </body>
 </html>
